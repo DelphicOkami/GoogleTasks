@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: George Wilkinson <delphicokami@hrafn.xyz>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>googletasks</id>
+    <name>Google Tasks</name>
+    <summary>Google tasks integration</summary>
+    <description><![CDATA[Provides access to a users google tasks todo list]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="delphicokami@hrafn.xyz" >George Wilkinson</author>
+    <namespace>GoogleTasks</namespace>
+    <category>integration</category>
+    <bugs>https://github.com/DelphicOkami/GoogleTasks/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="25" max-version="25"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Google Tasks</name>
+            <route>googletasks.page.index</route>
+        </navigation>
+    </navigations>
+</info>
